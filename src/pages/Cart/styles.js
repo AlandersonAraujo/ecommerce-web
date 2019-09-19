@@ -100,6 +100,7 @@ export const Total = styled.div`
   span {
     color: #999;
     font-weight: bold;
+    font-size: 15px;
   }
 
   strong {
