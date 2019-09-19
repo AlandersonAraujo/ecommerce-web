@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { darken } from 'polished';
+
 export const ProductList = styled.ul`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -13,8 +14,7 @@ export const ProductList = styled.ul`
     border-radius: 20px;
     padding: 20px;
 
-
-   img {
+    img {
       align-self: center;
       max-width: 250px;
     }
@@ -36,7 +36,7 @@ export const ProductList = styled.ul`
       background: rgba(40, 113, 148, 233);
       color: #fff;
       border: 0;
-      border-radius: 4px;
+      border-radius: 6px;
       overflow: hidden;
       margin-top: auto;
       display: flex;
@@ -48,10 +48,10 @@ export const ProductList = styled.ul`
       }
 
       div {
-       display: flex;
-       align-items: center;
-       padding: 12px;
-       background rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        background: rgba(0, 0, 0, 0.1);
 
         svg {
           margin-right: 5px;
