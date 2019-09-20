@@ -55,6 +55,10 @@ export const ProductList = styled.ul`
 
         svg {
           margin-right: 5px;
+
+          &:hover {
+            transform: scale(1.1);
+          }
         }
       }
 
